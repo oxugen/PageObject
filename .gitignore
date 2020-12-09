@@ -6,6 +6,6 @@
 # Maven
 log/
 target/
-settings/
+.settings/
 *.classpath
 src/main/
