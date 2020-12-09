@@ -42,7 +42,6 @@ public class SeleniumTest {
             .selectLocality()
             .selectMail()
             .selectTypeOfPayment()
-            .refreshPage()
             .checkoutButton();
             Assert.assertEquals(orderPage.getPaymentErrorSpan(), "Пожалуйста, введите корректное число в это поле");
     }
