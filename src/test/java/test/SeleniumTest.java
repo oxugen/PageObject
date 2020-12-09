@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import page.SeleniumOrderPage;
 import page.SeleniumProductPage;
 
-public class SeleniumTests {
+public class SeleniumTest {
 
     private WebDriver driver;
     private final String locality="Минское";
